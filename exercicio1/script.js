@@ -5,3 +5,9 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+for (i = 0; i < array.length; i++) {
+    let mensagem
+        mensagem = `Jogador ${i+1}: ${array[i]}`
+    console.log(mensagem)
+}
